@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GitHub Codespaces Command Sender</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Enter Access Token:</h1>
+		<input id="access-token" type="text" placeholder="Enter access token">
+		<button onclick="validateToken()">Validate Token</button>
+
+		<div id="command-container" style="display: none;">
+			<h1>Enter Command:</h1>
+			<input id="command" type="text" placeholder="Enter command here">
+			<button onclick="sendCommand()">Send Command</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
